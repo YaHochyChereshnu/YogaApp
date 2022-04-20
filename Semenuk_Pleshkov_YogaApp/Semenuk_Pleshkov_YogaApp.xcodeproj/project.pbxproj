@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FAFB9B4280FDBAD00D4EAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9B3280FDBAD00D4EAEF /* AppDelegate.swift */; };
+		3FAFB9B6280FDBAD00D4EAEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9B5280FDBAD00D4EAEF /* SceneDelegate.swift */; };
+		3FAFB9B8280FDBAD00D4EAEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9B7280FDBAD00D4EAEF /* ViewController.swift */; };
+		3FAFB9BB280FDBAD00D4EAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9B9280FDBAD00D4EAEF /* Main.storyboard */; };
+		3FAFB9BD280FDBAE00D4EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9BC280FDBAE00D4EAEF /* Assets.xcassets */; };
+		3FAFB9C0280FDBAE00D4EAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9BE280FDBAE00D4EAEF /* LaunchScreen.storyboard */; };
+		3FAFB9C5280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3FAFB9C4280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FAFB9CB280FDBAE00D4EAEF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9C9280FDBAE00D4EAEF /* Interface.storyboard */; };
+		3FAFB9CD280FDBAF00D4EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9CC280FDBAF00D4EAEF /* Assets.xcassets */; };
+		3FAFB9D3280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FAFB9D2280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FAFB9D8280FDBAF00D4EAEF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9D7280FDBAF00D4EAEF /* InterfaceController.swift */; };
+		3FAFB9DA280FDBAF00D4EAEF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9D9280FDBAF00D4EAEF /* ExtensionDelegate.swift */; };
+		3FAFB9DC280FDBAF00D4EAEF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9DB280FDBAF00D4EAEF /* ComplicationController.swift */; };
+		3FAFB9DE280FDBB000D4EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FAFB9DD280FDBB000D4EAEF /* Assets.xcassets */; };
+		3FAFB9EE280FE01300D4EAEF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9ED280FE01300D4EAEF /* TableViewController.swift */; };
+		3FAFB9F0280FE18800D4EAEF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB9EF280FE18800D4EAEF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FAFB9C6280FDBAE00D4EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAFB9A8280FDBAC00D4EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAFB9C3280FDBAE00D4EAEF;
+			remoteInfo = "Semenuk_Pleshkov_YogaApp WatchKit App";
+		};
+		3FAFB9D4280FDBAF00D4EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FAFB9A8280FDBAC00D4EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FAFB9D1280FDBAF00D4EAEF;
+			remoteInfo = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FAFB9E5280FDBB000D4EAEF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FAFB9D3280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAFB9E9280FDBB000D4EAEF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3FAFB9C5280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FAFB9B0280FDBAD00D4EAEF /* Semenuk_Pleshkov_YogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semenuk_Pleshkov_YogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAFB9B3280FDBAD00D4EAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FAFB9B5280FDBAD00D4EAEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FAFB9B7280FDBAD00D4EAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FAFB9BA280FDBAD00D4EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FAFB9BC280FDBAE00D4EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FAFB9BF280FDBAE00D4EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FAFB9C1280FDBAE00D4EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAFB9C4280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semenuk_Pleshkov_YogaApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAFB9CA280FDBAE00D4EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3FAFB9CC280FDBAF00D4EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FAFB9D2280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Semenuk_Pleshkov_YogaApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAFB9D7280FDBAF00D4EAEF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3FAFB9D9280FDBAF00D4EAEF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3FAFB9DB280FDBAF00D4EAEF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3FAFB9DD280FDBB000D4EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FAFB9DF280FDBB000D4EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAFB9ED280FE01300D4EAEF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FAFB9EF280FE18800D4EAEF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FAFB9AD280FDBAC00D4EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAFB9CF280FDBAF00D4EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FAFB9A7280FDBAC00D4EAEF = {
+			isa = PBXGroup;
+			children = (
+				3FAFB9B2280FDBAD00D4EAEF /* Semenuk_Pleshkov_YogaApp */,
+				3FAFB9C8280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App */,
+				3FAFB9D6280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension */,
+				3FAFB9B1280FDBAD00D4EAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FAFB9B1280FDBAD00D4EAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFB9B0280FDBAD00D4EAEF /* Semenuk_Pleshkov_YogaApp.app */,
+				3FAFB9C4280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app */,
+				3FAFB9D2280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FAFB9B2280FDBAD00D4EAEF /* Semenuk_Pleshkov_YogaApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFB9B3280FDBAD00D4EAEF /* AppDelegate.swift */,
+				3FAFB9B5280FDBAD00D4EAEF /* SceneDelegate.swift */,
+				3FAFB9B7280FDBAD00D4EAEF /* ViewController.swift */,
+				3FAFB9B9280FDBAD00D4EAEF /* Main.storyboard */,
+				3FAFB9ED280FE01300D4EAEF /* TableViewController.swift */,
+				3FAFB9EF280FE18800D4EAEF /* TableViewCell.swift */,
+				3FAFB9BC280FDBAE00D4EAEF /* Assets.xcassets */,
+				3FAFB9BE280FDBAE00D4EAEF /* LaunchScreen.storyboard */,
+				3FAFB9C1280FDBAE00D4EAEF /* Info.plist */,
+			);
+			path = Semenuk_Pleshkov_YogaApp;
+			sourceTree = "<group>";
+		};
+		3FAFB9C8280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFB9C9280FDBAE00D4EAEF /* Interface.storyboard */,
+				3FAFB9CC280FDBAF00D4EAEF /* Assets.xcassets */,
+			);
+			path = "Semenuk_Pleshkov_YogaApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		3FAFB9D6280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFB9D7280FDBAF00D4EAEF /* InterfaceController.swift */,
+				3FAFB9D9280FDBAF00D4EAEF /* ExtensionDelegate.swift */,
+				3FAFB9DB280FDBAF00D4EAEF /* ComplicationController.swift */,
+				3FAFB9DD280FDBB000D4EAEF /* Assets.xcassets */,
+				3FAFB9DF280FDBB000D4EAEF /* Info.plist */,
+			);
+			path = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FAFB9AF280FDBAC00D4EAEF /* Semenuk_Pleshkov_YogaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAFB9EA280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp" */;
+			buildPhases = (
+				3FAFB9AC280FDBAC00D4EAEF /* Sources */,
+				3FAFB9AD280FDBAC00D4EAEF /* Frameworks */,
+				3FAFB9AE280FDBAC00D4EAEF /* Resources */,
+				3FAFB9E9280FDBB000D4EAEF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FAFB9C7280FDBAE00D4EAEF /* PBXTargetDependency */,
+			);
+			name = Semenuk_Pleshkov_YogaApp;
+			productName = Semenuk_Pleshkov_YogaApp;
+			productReference = 3FAFB9B0280FDBAD00D4EAEF /* Semenuk_Pleshkov_YogaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FAFB9C3280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAFB9E6280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp WatchKit App" */;
+			buildPhases = (
+				3FAFB9C2280FDBAE00D4EAEF /* Resources */,
+				3FAFB9E5280FDBB000D4EAEF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FAFB9D5280FDBAF00D4EAEF /* PBXTargetDependency */,
+			);
+			name = "Semenuk_Pleshkov_YogaApp WatchKit App";
+			productName = "Semenuk_Pleshkov_YogaApp WatchKit App";
+			productReference = 3FAFB9C4280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3FAFB9D1280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAFB9E2280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp WatchKit Extension" */;
+			buildPhases = (
+				3FAFB9CE280FDBAF00D4EAEF /* Sources */,
+				3FAFB9CF280FDBAF00D4EAEF /* Frameworks */,
+				3FAFB9D0280FDBAF00D4EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+			productName = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+			productReference = 3FAFB9D2280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FAFB9A8280FDBAC00D4EAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FAFB9AF280FDBAC00D4EAEF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FAFB9C3280FDBAE00D4EAEF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FAFB9D1280FDBAF00D4EAEF = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FAFB9AB280FDBAC00D4EAEF /* Build configuration list for PBXProject "Semenuk_Pleshkov_YogaApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FAFB9A7280FDBAC00D4EAEF;
+			productRefGroup = 3FAFB9B1280FDBAD00D4EAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FAFB9AF280FDBAC00D4EAEF /* Semenuk_Pleshkov_YogaApp */,
+				3FAFB9C3280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App */,
+				3FAFB9D1280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FAFB9AE280FDBAC00D4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAFB9C0280FDBAE00D4EAEF /* LaunchScreen.storyboard in Resources */,
+				3FAFB9BD280FDBAE00D4EAEF /* Assets.xcassets in Resources */,
+				3FAFB9BB280FDBAD00D4EAEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAFB9C2280FDBAE00D4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAFB9CD280FDBAF00D4EAEF /* Assets.xcassets in Resources */,
+				3FAFB9CB280FDBAE00D4EAEF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAFB9D0280FDBAF00D4EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAFB9DE280FDBB000D4EAEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FAFB9AC280FDBAC00D4EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAFB9F0280FE18800D4EAEF /* TableViewCell.swift in Sources */,
+				3FAFB9B8280FDBAD00D4EAEF /* ViewController.swift in Sources */,
+				3FAFB9B4280FDBAD00D4EAEF /* AppDelegate.swift in Sources */,
+				3FAFB9B6280FDBAD00D4EAEF /* SceneDelegate.swift in Sources */,
+				3FAFB9EE280FE01300D4EAEF /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FAFB9CE280FDBAF00D4EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAFB9DA280FDBAF00D4EAEF /* ExtensionDelegate.swift in Sources */,
+				3FAFB9D8280FDBAF00D4EAEF /* InterfaceController.swift in Sources */,
+				3FAFB9DC280FDBAF00D4EAEF /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FAFB9C7280FDBAE00D4EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAFB9C3280FDBAE00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit App */;
+			targetProxy = 3FAFB9C6280FDBAE00D4EAEF /* PBXContainerItemProxy */;
+		};
+		3FAFB9D5280FDBAF00D4EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FAFB9D1280FDBAF00D4EAEF /* Semenuk_Pleshkov_YogaApp WatchKit Extension */;
+			targetProxy = 3FAFB9D4280FDBAF00D4EAEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FAFB9B9280FDBAD00D4EAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAFB9BA280FDBAD00D4EAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FAFB9BE280FDBAE00D4EAEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAFB9BF280FDBAE00D4EAEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FAFB9C9280FDBAE00D4EAEF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FAFB9CA280FDBAE00D4EAEF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FAFB9E0280FDBB000D4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FAFB9E1280FDBB000D4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FAFB9E3280FDBB000D4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Semenuk_Pleshkov_YogaApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FAFB9E4280FDBB000D4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Semenuk_Pleshkov_YogaApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Semenuk_Pleshkov_YogaApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FAFB9E7280FDBB000D4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Semenuk_Pleshkov_YogaApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Semenuk_Pleshkov_YogaApp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "kp11.Semenuk-Pleshkov-YogaApp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		3FAFB9E8280FDBB000D4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Semenuk_Pleshkov_YogaApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Semenuk_Pleshkov_YogaApp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "kp11.Semenuk-Pleshkov-YogaApp";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3FAFB9EB280FDBB000D4EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Semenuk_Pleshkov_YogaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FAFB9EC280FDBB000D4EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Semenuk_Pleshkov_YogaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Semenuk-Pleshkov-YogaApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FAFB9AB280FDBAC00D4EAEF /* Build configuration list for PBXProject "Semenuk_Pleshkov_YogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAFB9E0280FDBB000D4EAEF /* Debug */,
+				3FAFB9E1280FDBB000D4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAFB9E2280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAFB9E3280FDBB000D4EAEF /* Debug */,
+				3FAFB9E4280FDBB000D4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAFB9E6280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAFB9E7280FDBB000D4EAEF /* Debug */,
+				3FAFB9E8280FDBB000D4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAFB9EA280FDBB000D4EAEF /* Build configuration list for PBXNativeTarget "Semenuk_Pleshkov_YogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAFB9EB280FDBB000D4EAEF /* Debug */,
+				3FAFB9EC280FDBB000D4EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FAFB9A8280FDBAC00D4EAEF /* Project object */;
+}
